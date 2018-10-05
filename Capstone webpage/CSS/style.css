@@ -1,0 +1,83 @@
+body {
+    background-color: floralwhite;
+}
+.hidden{
+  display:none;
+}
+.homeButton {
+    background:url(../logo.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    border: 1;
+    color: white;
+    height: 50px;
+    width: 120px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+}
+.form {
+  border: none;
+  padding: 25px;
+}
+.choiceButton {
+    background-color: #0047B2; /* Blue */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text- decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+}
+.submitButton {
+	background-color: #FFAA00; /* Orange */
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+table, th, td {
+  border: 1px solid black;
+	text-align: center;
+}
+th {
+	font-size:3em;
+}
+th, td {
+	padding: 15px;
+}
+table {
+  border-collapse: collapse;
+	min-width: 530px;
+	margin: 0 auto;
+}
+caption {
+	font-size: 5em;
+}
+/*Setting tablr backgrounmd colors*/
+tr.available {
+  background-color: #66ffff; /*blue*/
+}
+tr.occupied {
+  background-color: #ff8080; /*red*/
+}
+tr.maint {
+  background-color: #df80ff; /*purple*/
+}
+tr.clean {
+  background-color: #ffff99; /*yellow*/
+}
+/* Making table clickable*/
+td a {
+  display:block;
+  width: 100%;
+  height: 100%;
+
+}

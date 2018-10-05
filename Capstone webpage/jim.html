@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Check In</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/print.css" media="print">
+
+
+</head>
+
+
+<body>
+
+	<a class="homeButton" href="index.html"></a><br>
+	<a class="choiceButton" href="larry.html">Larry</a>
+	<a class="choiceButton" href="susan.html">Susan</a>
+	<a class="choiceButton" href="jim.html">Jim</a>
+
+	<h1 id="checkInTitle">Check In</h1>
+	<h1 id="capTitle" class="hidden">Capsule 50 Hotel</h1>
+	<h2 id="receiptTitle" class="hidden">Receipt</h2>
+	<div id="main">
+	<form >
+
+				First name:<br>
+		<input type="text" name="firstname" placeholder="Dude" id="fname" value="Jim"><br>
+
+
+				Last name:<br>
+		<input type="text" name="lastname" placeholder="McDude" id="lname" value="Beam"><br>
+
+				Gender:<br>
+		<select id="genderselect">
+			<option  value="female">female</option>
+		  <option  value="male" selected="selected">male</option>
+
+		</select><br><br>
+
+
+				Length Of Stay:<br>
+		<select id="lengthofstay">
+			<option value="1">1</option>
+			<option value="2" selected="selected">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+			<option value="6">6</option>
+			<option value="7">7</option>
+			<option value="8">8</option>
+			<option value="9">9</option>
+			<option value="10">10</option>
+			<option value="11">11</option>
+			<option value="12">12</option>
+		</select><br><br>
+
+
+				Address Info:<br>
+				<br>
+
+
+				Address 1:<br>
+		<input type="text" name="address1" placeholder="address" id="address1" value="18887 1st st"><br>
+
+
+				Address 2:<br>
+		<input type="text" name="address2" id="address2" value=""><br>
+
+
+				City:<br>
+		<input type="text" name="city" placeholder="city" id="city" value="Clermont"><br>
+
+
+				State:<br>
+		<select id="state1">
+		  <option value="alabama">AL</option>
+		  <option value="alaska">AK</option>
+		  <option value="arizona">AZ</option>
+		  <option value="arkansas">AR</option>
+		  <option value="california">CA</option>
+		  <option value="colorado">CO</option>
+		  <option value="conneticut">CT</option>
+		  <option value="delaware">DE</option>
+		  <option value="florida">FL</option>
+		  <option value="georgia">GA</option>
+		  <option value="hawaii">HI</option>
+		  <option value="idaho">ID</option>
+		  <option value="illinois">IL</option>
+		  <option value="indiana">IN</option>
+		  <option value="iowa">IA</option>
+		  <option value="kansas">KS</option>
+		  <option value="kentucky" selected="selected">KY</option>
+		  <option value="louisiana">LA</option>
+		  <option value="maine">ME</option>
+		  <option value="maryland">MD</option>
+		  <option value="massachusetts">MA</option>
+		  <option value="michigan">MI</option>
+		  <option value="minnesota">MN</option>
+		  <option value="mississippi">MS</option>
+		  <option value="missouri">MO</option>
+		  <option value="montana">MT</option>
+		  <option value="nebraska">NE</option>
+		  <option value="nevada">NV</option>
+		  <option value="newHampshire">NH</option>
+		  <option value="newJersey">NJ</option>
+		  <option value="newMexico">NM</option>
+		  <option value="newYork">NY</option>
+		  <option value="northCarolina">NC</option>
+		  <option value="northDakota">ND</option>
+		  <option value="ohio">OH</option>
+		  <option value="oklahoma">OK</option>
+		  <option value="oregon">OR</option>
+		  <option value="pennsylvania">PA</option>
+		  <option value="rhodeIsland">RI</option>
+		  <option value="southCarolina">SC</option>
+		  <option value="southDakota">SD</option>
+		  <option value="tennessee">TN</option>
+		  <option value="texas">TX</option>
+		  <option value="utah">UT</option>
+		  <option value="vermont">VT</option>
+		  <option value="virginia">VA</option>
+		  <option value="washington">WA</option>
+		  <option value="westVirginia">WV</option>
+		  <option value="wisconsin">WI</option>
+		  <option value="wyoming">WY</option>
+		</select><br><br>
+
+
+				Zip Code:<br>
+		<input type="text" name="zipCode" placeholder="zip" id="zip1" value="34711"><br><br>
+
+		Credit Card Info:<br>
+				<br>
+				Credit Card Number:<br>
+		<input type="text" name="creditcardnumber" id="ccnumber" value="4111111111111111"><br>
+				Credit Card Expiration Date:<br>
+				<select id= "ccexpmonth">
+					<option value="01">01</option>
+					<option value="02">02</option>
+					<option value="03">03</option>
+					<option value="04">04</option>
+					<option value="05">05</option>
+					<option value="06">06</option>
+					<option value="07">07</option>
+					<option value="08">08</option>
+					<option value="09">09</option>
+					<option value="10">10</option>
+					<option value="11" selected="selected">11</option>
+					<option value="12">12</option>
+				</select> / <select id="ccexpyear">
+					<option value="16">16</option>
+					<option value="17">17</option>
+					<option value="18">18</option>
+					<option value="19">19</option>
+					<option value="20">20</option>
+					<option value="21" selected="selected">21</option>
+					<option value="22">22</option>
+					<option value="23">23</option>
+					<option value="24">24</option>
+					<option value="25">25</option>
+					<option value="26">26</option>
+					<option value="27">27</option>
+					<option value="28">28</option>
+					<option value="29">29</option>
+					<option value="30">30</option>
+					<option value="31">31</option>
+				</select><br>
+
+				Credit Card Security Code:<br>
+		<input type="text" name="creditcardsecurity" id="ccsecuritycode" value= "123"><br>
+				Name on card:<br>
+		<input type="text" name="creditcardname" id="ccnameoncard"  value= "Jim Beam"><br><br>
+
+				<!-- Billing address<br>
+				<br>
+				<input type="checkbox" name="billingtoo">
+				<em>Check this box if Billing Address and Mailing Address are the same.</em><br>
+
+				Address Line 1:<br>
+		<input type="text" name="address1" id="address3" value="505 Hillsberry"><br>
+
+
+				Address Line 2:<br>
+		<input type="text" name="address2" id="address4" value=""><br>
+
+
+				City:<br>
+		<input type="text" name="city" id= "city2" value="Anchorage"><br>
+
+
+				State:<br>
+		<select id="state2">
+			<option value="alabama">AL</option>
+			<option value="alaska" selected="selected">AK</option>
+			<option value="arizona">AZ</option>
+			<option value="arkansas">AR</option>
+			<option value="california">CA</option>
+			<option value="colorado">CO</option>
+			<option value="conneticut">CT</option>
+			<option value="delaware">DE</option>
+			<option value="florida">FL</option>
+			<option value="georgia">GA</option>
+			<option value="hawaii">HI</option>
+			<option value="idaho">ID</option>
+			<option value="illinois">IL</option>
+			<option value="indiana">IN</option>
+			<option value="iowa">IA</option>
+			<option value="kansas">KS</option>
+			<option value="kentucky">KY</option>
+			<option value="louisiana">LA</option>
+			<option value="maine">ME</option>
+			<option value="maryland">MD</option>
+			<option value="massachusetts">MA</option>
+			<option value="michigan">MI</option>
+			<option value="minnesota">MN</option>
+			<option value="mississippi">MS</option>
+			<option value="missouri">MO</option>
+			<option value="montana">MT</option>
+			<option value="nebraska">NE</option>
+			<option value="nevada">NV</option>
+			<option value="newHampshire">NH</option>
+			<option value="newJersey">NJ</option>
+			<option value="newMexico">NM</option>
+			<option value="newYork">NY</option>
+			<option value="northCarolina">NC</option>
+			<option value="northDakota">ND</option>
+			<option value="ohio">OH</option>
+			<option value="oklahoma">OK</option>
+			<option value="oregon">OR</option>
+			<option value="pennsylvania">PA</option>
+			<option value="rhodeIsland">RI</option>
+			<option value="southCarolina">SC</option>
+			<option value="southDakota">SD</option>
+			<option value="tennessee">TN</option>
+			<option value="texas">TX</option>
+			<option value="utah">UT</option>
+			<option value="vermont">VT</option>
+			<option value="virginia">VA</option>
+			<option value="washington">WA</option>
+			<option value="westVirginia">WV</option>
+			<option value="wisconsin">WI</option>
+			<option value="wyoming">WY</option>
+		</select><br>
+
+
+				Zip Code:<br>
+		<input type="text" name="zipCode" id="zip2" value="99501"><br><br>-->
+
+	</form>
+	<button id="nextbutton" class="submitButton" type="button">Next</button>
+	</div>
+	<button id="printbutton" class="hidden" type="button" onclick="window.print()">Print</button>
+
+
+	<script src="JavaScript\jquery-3.1.0.min.js"></script>
+	<script src="JavaScript\checkIn.js"></script>
+</body>
+</html>
